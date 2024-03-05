@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite">
+  <test name="RegressionTest">
+	  
+	  
+	  <groups>
+		  <run>
+			  <include name="regression"></include>
+		  </run>
+	  </groups>
+	  
+    <classes>
+      <class name="TestngPack.Annotations"/>
+      <class name="TestngPack.Assertions"/>
+      <class name="TestngPack.GroupExecution"/>
+      <class name="TestngPack.FirstTestng"/>
+    </classes>
+    
+    
+  </test> <!-- RegressionTest -->
+</suite> <!-- RegressionSuite -->
